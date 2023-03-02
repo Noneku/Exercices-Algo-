@@ -1,0 +1,30 @@
+
+
+-VERT :
+age>25          permis>2        acc=0       
+
+
+-ORANGE :
+age<25          permis>2        acc=0   p=1
+age>25          permis<2        acc=0   p=1
+age>25          permis>2        acc=1   p=1
+
+
+-ROUGE :
+age<25          permis<2        acc=0    p=2
+age<25          permis>2        acc=1    p=2
+age>25          permis<2        acc=1    p=2
+age>25          permis>2        acc=2    p=2
+
+
+
+-REFUS :
+age<25          permis<2        acc>0    p=3
+age<25          permis>2        acc>1    p=3
+age>25          permis<2        acc>1    p=3
+age>25          permis>2        acc>2    p=3
+
+
+
+
+
